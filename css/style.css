@@ -2,12 +2,12 @@ h1 {
     font-size: 50px;   /*tamano de la letra */
     color: brown;       
     background-color: aquamarine;   /*color de fondo*/
-    padding: 100px;             /*espaciado interno*/
+    padding: 25px;             /*espaciado interno*/
 
-    margin: 100px;              /*espaciado externo*/
+    margin: 25px;              /*espaciado externo*/
 }
 p{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;      /*alineado del texto*/
     font-weight: bold;        /*colocar negrilla*/
 }
@@ -15,11 +15,16 @@ h2{
     text-align: left;
 }
 a{
-    font-size: 50px;
+    font-size: 30px;
     color: blue;
     text-align: center;
 
 }
 body{
-    background-color: aqua;
+    background-color: rgb(215, 251, 251);
+}
+li{
+    font-size: 20px;
+   
+    
 }
