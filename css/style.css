@@ -1,8 +1,41 @@
+header{
+    position: fixed;
+    width: 100%;
+    height: 70px;  
+    background-color: #031a1c;
+}
+nav{
+    max-width: 1024px;
+   
+}
+header img{
+    padding: 18px 10px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 10px;
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+nav li a{
+    font-size: 1em;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 15px 10px;
+    color: rgb(243, 240, 240);
+    background-color: rgb(2, 13, 11);}
+    
+
 h1 {
     font-size: 50px;   /*tamano de la letra */
-    color: brown;       
-    background-color: aquamarine;   /*color de fondo*/
-    padding: 25px;             /*espaciado interno*/
+    color: rgba(171, 247, 239, 0.741);       
+    background-color: rgb(3, 21, 23);   /*color de fondo*/
+    padding: 10px;             /*espaciado interno*/
 
     margin: 25px;              /*espaciado externo*/
 }
@@ -10,21 +43,38 @@ p{
     font-size: 20px;
     text-align: center;      /*alineado del texto*/
     font-weight: bold;        /*colocar negrilla*/
+    color: rgba(138, 244, 233, 0.751);
+    color: rgba(138, 244, 233, 0.751);
 }
 h2{
     text-align: left;
+    color: rgb(245, 101, 17);
+}
+h3{
+    color: rgb(245, 101, 17);
 }
 a{
     font-size: 30px;
-    color: blue;
+    color: rgb(245, 101, 17);
     text-align: center;
+   
 
 }
 body{
-    background-color: rgb(215, 251, 251);
+    
+    background-color: rgb(6, 78, 78);
 }
 li{
     font-size: 20px;
-   
-    
+    color: rgba(138, 244, 233, 0.751);
+}
+
+.juegos{
+    font-size: 35px;   /*tamano de la letra */
+    color: rgba(171, 247, 239, 0.741);       
+    background-color: rgb(3, 21, 23);   /*color de fondo*/
+    padding: 10px;             /*espaciado interno*/
+
+    margin: 25px;      
+
 }
