@@ -5,28 +5,24 @@ header{
     background-color: #031a1c;
 }
 nav{
-    max-width: 1024px;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 header img{
-    padding: 18px 10px;
+    padding: 15px 10px;
 }
 nav ul{
-    float: right;
-    list-style: none;
-    text-align: center;
-    vertical-align: top;
-    margin: 0 10px;
+    margin: 0 40px;
 }
 nav li{
-    list-style-type: none;
     display: inline;
 }
 nav li a{
     font-size: 1em;
     text-decoration: none;
     line-height: 70px;
-    padding: 15px 10px;
+    padding: 10px 20px;
     color: rgb(243, 240, 240);
     background-color: rgb(2, 13, 11);}
     
@@ -76,5 +72,32 @@ li{
     padding: 10px;             /*espaciado interno*/
 
     margin: 25px;      
+}
+.supercell {
+    font-size: 20px;   /*tamano de la letra */
+    color: rgba(248, 253, 252, 0.741);       
+    background-color: rgb(3, 21, 23);   /*color de fondo*/
+    padding: 10px;             /*espaciado interno*/
 
+    margin: 25px; 
+}
+.historia {
+    font-size: 20px;   /*tamano de la letra */
+    color: rgb(248, 253, 252);       
+    background-color: rgba(23, 2, 162, 0.162);   /*color de fondo*/
+    padding: 10px;             /*espaciado interno*/
+    margin: 25px; 
+}
+footer{
+    display: flex;
+    background-color: #0a0a0a;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+footer li{
+    font-size: 25 px;
+    display: inline;
+    padding: 0px 20px;
+    color: aliceblue;
 }

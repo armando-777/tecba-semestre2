@@ -34,3 +34,33 @@ a{
 body{
     background-color: rgb(215, 251, 251);
 }
+
+
+
+
+
+nav{
+    max-width: 1024px;
+   
+}
+header img{
+    padding: 18px 10px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 10px;
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+nav li a{
+    font-size: 1em;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 15px 10px;
+    color: rgb(243, 240, 240);
+    background-color: rgb(2, 13, 11);}
